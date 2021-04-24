@@ -1,0 +1,4 @@
+#!/bin/bash/
+
+# make sure the sh file are inside the longranger folder
+cd /data/CARD/tprojects/data/Jax; bash longrangerWGS4.sh 

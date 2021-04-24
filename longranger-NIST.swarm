@@ -1,0 +1,5 @@
+#!/bin/bash/
+
+# make sure the sh file are inside the longranger folder
+
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longranger-NIST.sh myNIST

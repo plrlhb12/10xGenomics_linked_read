@@ -1,0 +1,16 @@
+#!/bin/bash/
+
+#SBATCH --job-name LongRanger
+#SBATCH --mail-type BEGIN,END
+#SBATCH -o /data/CARD/tprojects/data/Psomagen/longranger.out
+#SBATCH -e /data/CARD/tprojects/data/Psomagen/longranger.err
+
+# make sure the sh file are inside the longranger folder
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh KUCG3-C1
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh LNGPI1-C1
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh NCRM1-C6
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh NCRM5-C5
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh NN0003932-C3
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh NN0004297-C1
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh PGP1-C2
+cd /data/CARD/tprojects/data/Psomagen/longranger; bash longrangerWGS3.sh KOLF2-ARID2-A2
